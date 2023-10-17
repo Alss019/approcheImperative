@@ -14,13 +14,11 @@ public class InteractifStockageNombre {
 		int option = 0;
 		System.out.println("Tapez 1 pour ajouter un nombre Tapez 2 pour voir votre tableau");
 		option = scanner.nextInt();
-		int data = 0;
-		int size = 0;
 		
 		while(open == false) {	
 			if (option == 1) {
 				System.out.println("Ajouter un chiffre");
-				data = scanner.nextInt();
+				int data = scanner.nextInt();
 				tab.add(data);
 				System.out.println("Ajouter au tableau");
 				}	
