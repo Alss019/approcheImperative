@@ -13,6 +13,7 @@ public class InteractifChiffreSuivants {
 		for( int i=nb; i<nb+10;i++) {
 			System.out.println(i+1);
 		}
+		scanner.close();
 	}
 
 }
